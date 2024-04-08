@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 40px;
+    width: auto;
+    background: #FFDFDF;
+  }
+  
+h1.head {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-style:Helvetica;
+}
+
+hr {
+    border-top: 2px solid #FEC7B4;
+}
+
+h1.heading {
+    position:relative; 
+    bottom: 20px;
+    left: 300px; 
+    height: 100px;
+    padding: 100px;
+    font-style:Helvetica;
+}
+
+p.description {
+    font-size: 16px;
+    position: relative;
+    left: 420px; 
+    bottom: 175px;
+    font-style: Helvetica;
+}
+
+.pfp {
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    width: 200px;
+    border: 2px solid pink;
+}
+
+hr.hr1 {
+    border-top: 3px solid #FEC7B4;
+}
+
+h2.info{
+    font-size: 20px;
+    background-color: #FFDFDF;
+    padding: 10px;
+    text-align: center;
+    font-style: Helvetica; 
+}
+
+div.ul {
+    text-align: center;
+}
+
+ul.li {
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+h2.files {
+    font-size: 20px;
+    background-color: #FFDFDF;
+    padding: 10px;
+    text-align: center;
+    font-style: Helvetica; 
+}
+
+div.works {
+    text-align: center;
+}
+
+ol.li {
+
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+}
+div.Testimonials {
+    padding: 0px;
+}
+
+h2.Testi {
+    font-size: 20px;
+    background-color: #FFDFDF;
+    padding: 10px;
+    text-align: center;
+    font-style: Helvetica; 
+}
+
+p.testi {
+    padding: 100px;
+}
+
+h2.Gallery {
+    font-size: 20px;
+    background-color: #FFDFDF;
+    padding: 10px;
+    text-align: center;
+    font-style: Helvetica; 
+}
+
+div.polaroid {
+    float: left;
+    width: 10%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+div.img {
+    position: relative;
+    left: 200px;
+}
+
+div.img1 {
+    position: relative;
+    left: 260px;
+}
+
+div.img2 {
+    position: relative;
+    left: 330px;
+}
+
+div.img3 {
+    position: relative;
+    left: 390px;
+}
+
+div.img4 {
+    position: relative;
+    left: 450px;
+}
+
+div.images { 
+    width: 20%;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
