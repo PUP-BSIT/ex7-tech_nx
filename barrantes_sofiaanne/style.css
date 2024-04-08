@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.split {
+    height: 100vh; 
+    display: flex; 
+}
+
+.right {
+    background-color: #ffd1dc; 
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.slide { 
+    max-width: 600px;
+    margin-bottom: 20px; 
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1; 
+    padding: 20px;
+    background-color: white;
+    border: 10px solid white;
+    overflow-y: auto;
+    overflow-x: auto;
+    flex-direction: row;
+    box-sizing: border-box; 
+}
+
+.slide h2 {
+    margin-top: 0; 
+}
+
+#name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: relative;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.left {
+    flex: 1;
+    background-color: #f0f0f0;
+    justify-content: center;
+    background-image: url("https://f8n-production-collection-assets.imgix.net/0x9937D9A7205238834F6aE86D5CbbE60a887cFb6F/1/nft.png?auto=format%2Ccompress&q=70&h=1200&w=1200");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0; 
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-container {
+    border: 2px solid white; 
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+    width: calc(33.33% - 40px);
+}
+
+.Gallery {
+    text-align: center; 
+}
+
+.gallery-item {
+    display: inline-block; 
+    margin: 10px; 
+    width: 175px; 
+    box-sizing: border-box; 
+}
+
+.gallery-item img {
+    width: 100%; 
+    height: auto; 
+    max-width: 150px; 
+}
