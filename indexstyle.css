@@ -1,20 +1,25 @@
 body {
+    flex:1;
     font-family: "Arial", sans-serif;
-    background-color: #ffccff; 
-    color: #660066; 
     margin: 0;
     padding: 0;
+    background-image: url("https://pbs.twimg.com/ext_tw_video_thumb/1678768982659321859/pu/img/IvfiGYTeud8cQq28.jpg:large");
+    background-size:cover;
+
 }
 
 .container {
-    width: 80%;
-    margin: 20px auto;
-    border: 2px solid #660066; 
-    background-color: #ffccff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+       
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: relative;
+        max-width: 800px;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
 }
 
 h1 {
