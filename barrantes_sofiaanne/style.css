@@ -4,12 +4,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.split {
+.split-right {
     height: 100vh; 
     display: flex; 
-}
-
-.right {
     background-color: #ffd1dc; 
     display: flex;
     align-items: center; 
@@ -49,18 +46,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.left {
+.split-left {
+    height: 100vh; 
+    display: flex; 
     flex: 1;
     background-color: #f0f0f0;
     justify-content: center;
     background-image: url("https://f8n-production-collection-assets.imgix.net/0x9937D9A7205238834F6aE86D5CbbE60a887cFb6F/1/nft.png?auto=format%2Ccompress&q=70&h=1200&w=1200");
     background-size: 100%;
     background-repeat: no-repeat;
-}
-
-.right {
-    display: flex;
-    justify-content: space-around;
 }
 
 ul {
