@@ -8,13 +8,14 @@ body{
     margin: 50px auto;
 }
 
-#mainbody{
+#main_body{
     background-color: rgba(226, 214, 214, 0.5);
 }
 
 hr{
     border-top: 1px dotted white;
 }
+
 a:link{
     color: black;
     text-decoration: none;
