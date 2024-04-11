@@ -86,12 +86,12 @@ img{
     text-align: center;
 }
 
-ul{
+ul.center{
     display: inline-block; 
     text-align: left; 
 }
 
-ol{
+ol.center{
     display: inline-block; 
     text-align: left; 
 }
